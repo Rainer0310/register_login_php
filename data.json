@@ -1,0 +1,178 @@
+[
+    {
+        "username": "sas",
+        "password": "$2y$10$Tr09iihZxYGTyc4ELisn0OSM9Xb\/Qu7aypeCQ24u0tr6BZmD1rVOC"
+    },
+    {
+        "username": "VVCVXVX",
+        "password": "$2y$10$AdhktbpEXMIvH9HmWBMR5u6rJQ3MkM4OUjUg6zkKu6c\/rSC.zFFqm"
+    },
+    {
+        "username": "CHJKVXCJ",
+        "password": "$2y$10$Hp1LvJKaFDAUKgA1\/JZDDOltdr8NkS4nrBGlIQRmz7lUfWzzYUnlW"
+    },
+    {
+        "username": "W",
+        "password": "$2y$10$uQcqDsNeXPZ6ofT1qtOSi.WkGeiTa1ZjT5iLRc4XW47dIXKmE6k56"
+    },
+    {
+        "username": "w",
+        "password": "$2y$10$UnXuXldfN3qC3xfuqlVs3O5PqklkMOEcPzuJJ3qFWbvBIVLH1lvUi"
+    },
+    {
+        "username": "q",
+        "password": "$2y$10$CEItbs982rHyF88LsIH5KeiCwFo5WtTSfgrAakwg6tSaFKEpuVTs2"
+    },
+    {
+        "username": "123",
+        "password": "$2y$10$Yi4ty\/a4.C9MANA7fESxSuRNps4Y0JVYM9qmGd2pKyV\/gQGo7EZDy"
+    },
+    {
+        "username": "321",
+        "password": "$2y$10$5Py8GHVg.ahJJwj9pkD2p.XxzmkhGB1rbBlKN..DJKpRbT3srjlz6"
+    },
+    {
+        "username": "111",
+        "password": "$2y$10$DdmVzu0u\/mZzJ2FjiwwboOR0ziBTsmYVyzBRt9GxHEAN8gPW39DV6"
+    },
+    {
+        "login": "qwe",
+        "password": "$2y$10$UBpusDgVDzTxkMv6MSr0v.PMPscUmoSLrZYMCBfWnz8vJjgtXSeGG",
+        "conf_pass": "$2y$10$Th6ak5DUJaTf4MEAT.whpOkHs0A2NYDsiG8MHEmQ4cdbjML.02gni",
+        "email": "1@mail.ru",
+        "name": "cxxz12121212"
+    },
+    {
+        "login": "login1",
+        "password": "$2y$10$XVqDGU2PfESHGObcs1eQzum3MOkOYNXWVbBVWBtNfqxzHFrrmLfZO",
+        "conf_pass": "$2y$10$pW8TASyIBBnCGamoAb1D\/ul54n9Cwx4HavNPhut1anDzO3xs2IaOe",
+        "email": "1@mail.ru",
+        "name": "name1"
+    },
+    {
+        "login": "1",
+        "password": "$2y$10$lR0Ejn0wneyEQIsZOEDAXe30ZpwChKsHB4pu\/eY7152B6\/NAEWEfa",
+        "conf_pass": "$2y$10$hf47shxyqSZS55DWySS22e1eq\/2Vx.vGL22aCsW\/6ovaZ7RrmDEBW",
+        "email": "1@mail.ru",
+        "name": "cxxz"
+    },
+    {
+        "login": "2",
+        "password": "$2y$10$XlYCWqbY54Bz.OKi3WDi7enlq1HIGtuP6hBJdnWqnSE.mn9BIfuP6",
+        "conf_pass": "$2y$10$7.L5lsr9MVm1\/1W8FhfGjeqpQP25OAxMwGNpPzpw\/RE2.TX6m2esu",
+        "email": "1@mail.ru",
+        "name": "cxxz1"
+    },
+    {
+        "login": "1234",
+        "password": "$2y$10$OA\/T9prGxWgZMsjWr4OghO.rVJXr0jvjBbe1dCDFp5w2yI6WoStKu",
+        "conf_pass": "$2y$10$nfvjaILS\/pzMzA8m5naunOpxglx25Wb\/eiMPhGOKL1.Z7yDvU.C\/W",
+        "email": "1@mail.ru",
+        "name": "login121"
+    },
+    {
+        "login": "2",
+        "password": "$2y$10$F23BthwQCwNnFu6luomHbu4v9k.tRQ2UJB3hj5AzYkD0OeXdvDVTK",
+        "conf_pass": "$2y$10$guOhkCcNwufLA24\/8b9N9OiuKgwiLrheBncnpPjnvxQrJxijHXn1W",
+        "email": "1@mail.ru",
+        "name": "cxxz1"
+    },
+    {
+        "login": "2",
+        "password": "$2y$10$UH9Zd7vAFsS6hPzSd2fLGOLB.PCK5zVSZX2YFhYhcqpCQi17J3lwa",
+        "conf_pass": "$2y$10$ihB7dQmcW27VXd2.3q6Fc.9Qx14Jiup08Y.jvuX42beOvy3jq0zOG",
+        "email": "1@mail.ru",
+        "name": "cxxz1"
+    },
+    {
+        "login": "2",
+        "password": "$2y$10$8uJj1JxiB1Luq\/5QAtzg7evbNGf774u9q5bMK\/P6WoGd\/aBibHy7a",
+        "conf_pass": "$2y$10$6HxuQA\/tTc6wy8V23L06H.VhnoeNT.UnhZt3zmzFoCReEtpeUFZoO",
+        "email": "1@mail.ru",
+        "name": "cxxz1"
+    },
+    {
+        "login": "login3",
+        "password": "$2y$10$CmJM5YnPNssL.nOiqIeSx.ZrIqLTDEqOfRGdrgbPjNK15bdYoiWIW",
+        "conf_pass": "$2y$10$6j4mYyBRFsCb1EIniAOSGed5bguEduLrItr\/xk4tal8mEIoxxOHtm",
+        "email": "1@mail.ru",
+        "name": "name3"
+    },
+    {
+        "login": "qw",
+        "password": "$2y$10$HLxJwpH4DmuI3szJUJdIC.bnzOh7DsQzGE43.otqDRr1hzOtr8vV.",
+        "conf_pass": "$2y$10$XP4qmpgwxVn2Xz0BBWtAcO8hfnO4F\/zaxo6TWg97HpdjjFmE.sKVa",
+        "email": "1@mail.ru",
+        "name": "cxxz"
+    },
+    {
+        "login": "a",
+        "password": "$2y$10$bn.5KvCGokHkZbXOrrjV8uIrl1cVg1AR28zamtQfuUJK63c8meWE6",
+        "conf_pass": "$2y$10$CQAPGAkzUIGZ6u.hcPz.VOn5lCgEFKLUfm4GYL0klemaPINu5WrMO",
+        "email": "1@mail.ru",
+        "name": "name1"
+    },
+    {
+        "login": "b",
+        "password": "$2y$10$wljdNigB1fwqIT2vP0SLT.3y46jjiA86vPNQcZiFLrPoncC3tm.22",
+        "conf_pass": "$2y$10$H6xjoMvUKUk4qScPZ.BloOH.i5cAkIUIlMVpWll0ibYuicnFzXTGe",
+        "email": "1@mail.ru",
+        "name": "cxxz"
+    },
+    {
+        "login": "c",
+        "password": "$2y$10$YRbCzKzecSHYRYvz8g.0j.cVgIiqagUktl3OKJC\/BjsLsDNYUJEgW",
+        "conf_pass": "$2y$10$6xvv4BYUZzdhnQiNT\/JdrujqU5O1ECDPh773vzZZv\/5JAEWVsnqnW",
+        "email": "1@mail.ru",
+        "name": "name2"
+    },
+    {
+        "login": "d",
+        "password": "$2y$10$qbvWayqwlQDBdL4sJ96\/NOJETU9VxIktWIeBZYGmorZsNhVxlOyte",
+        "conf_pass": "$2y$10$n8KjfobWeNCTPCcTKqKbHe.2TFNz0jIn2Q2pw4GqLMOPQmdTvMzXO",
+        "email": "1@mail.ru",
+        "name": "cxxz"
+    },
+    {
+        "login": "  c ",
+        "password": "$2y$10$6NwdkDaQ101kQiliuENYre.uud52jgxpbPafMjgZSQel0q3nlBDtG",
+        "conf_pass": "$2y$10$ePlhO5O9VyG0eB12ZPWJGeAxPWYH3m9sUAnlAnMffXWmoHU9KcXmO",
+        "email": "",
+        "name": ""
+    },
+    {
+        "login": "   ",
+        "password": "$2y$10$zBxAhaGvPRMJy2HwzzxsA.3dEmsiuZYDN2gJhvo\/Uxvd8upKNwqle",
+        "conf_pass": "$2y$10$D\/75wfLvoI25POhEx6HNeOjj9K8wE85o\/RWXTGFxTAo3bG.fVhq4q",
+        "email": "",
+        "name": ""
+    },
+    {
+        "login": "  ",
+        "password": "$2y$10$DqmdzRgTCxQu9zHmf.cinuBOJvFoqFckf4kfrBD3P.xF3XGnzo7B2",
+        "conf_pass": "$2y$10$Z1rO9Wd\/Yexj6rpsmJG\/pOrgwKOWylPhpvvu\/Nf4Hqrtvn\/a9Y5T6",
+        "email": "",
+        "name": ""
+    },
+    {
+        "login": "       ",
+        "password": "$2y$10$8bsadeHig.\/hS8mNuBL5aeqQSJSCf5lOFQhOWeuzFHMBIOcs0v0Im",
+        "conf_pass": "$2y$10$fNoYW4nDVNwEfRSQpMR9HeirTG9sziSc3j1clJp5vmqDOmXetoJx2",
+        "email": "",
+        "name": ""
+    },
+    {
+        "login": "pp",
+        "password": "$2y$10$PEr5Y5gp4zlyfiAzPxL7XODZ6nRpaZXLgnlGjtppJN5zwJeYliU2u",
+        "conf_pass": "$2y$10$d8w1aFPbp3HulglvJtwo0.RSycOObiFmZUODAO60fqPEl9Xh3kHTy",
+        "email": "1@mail.ru",
+        "name": "cxxz12121212"
+    },
+    {
+        "login": "123456",
+        "password": "$2y$10$UT0PW4CDXPa2JZ2Nl9wnVetkIkGroNHQN\/LB5RGHb6Mmpbh38mSL.",
+        "conf_pass": "$2y$10$x50UCLW8u9tLI8vP1zuNkelYQH7mRDZE\/7TUpMOGbk\/ztP0p5Xu9m",
+        "email": "123456@mail.ru",
+        "name": "123456"
+    }
+]
