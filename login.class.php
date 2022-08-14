@@ -27,7 +27,7 @@ class LoginUser{
 				}
 			}
 		}
-		return $this->error = "Wrong username or password";
+		return $this->error = "Неверный логин или пароль";
 	}
 
 }

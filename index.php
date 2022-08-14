@@ -19,25 +19,25 @@
 		<h2>Форма регистрации</h2>
 
 		<label>Логин</label><br>
-		<input type="text"minlength="6" name="login"><br>
+		<input type="text" name="login" pattern= "\S{6,}"><br>
 
-		<label for= "text">Логин слишком мал </label><br><br>
+		<!-- <label for= "text">Логин слишком мал </label><br><br> -->
 
 		<label>Пароль</label><br>
-		<input type="text" minlength="6" name="password"><br>
+		<input type="text" name="password" pattern="[A-Za-zА-Яа-яЁё0-9]{6,}"><br>
 
-		<label for= "text">Пароль слишком мал </label><br><br>
+		<!-- <label for= "text">Пароль слишком мал </label><br><br> -->
 
 		<label>Повторите пароль</label><br>
-		<input type="text" name="conf_pass"><br><br>
+		<input type="text"  name="conf_pass" pattern="[A-Za-zА-Яа-яЁё0-9]{6,}"><br><br>
 
 		<label>Электронная почта</label><br>
 		<input type="email" name="email"><br><br>
 
 		<label>Имя пользователя</label><br>
-		<input type="text" minlength="6" name="name"><br>
+		<input type="text" name="name" pattern= "[A-Za-zА-Яа-яЁё]{2}"><br>
 
-		<label for= "text">Имя пользователя слишком мало </label><br><br>
+		<!-- <label for= "text">Имя пользователя слишком мало </label><br><br> -->
 
 
 		<button type="submit" name="submit">Зарегестрироваться</button>

@@ -14,16 +14,19 @@ class RegisterUser{
 	public $success;
 	private $storage = "data.json";
 	private $stored_users;
-	private $new_user; 
+	private $new_user;
+	private $salt; 
+	
 
 
 	public function __construct($login, $password, $conf_pass, $email, $name){
 
 		$this->login = trim($this->login = '');
 		$this->login = filter_var($login, FILTER_UNSAFE_RAW);
-
+		$salt = md5(uniqid(mt_rand(),true));
 		$this->raw_password = filter_var(trim($password), FILTER_UNSAFE_RAW);
-		$this->encrypted_password = password_hash($this->raw_password, PASSWORD_DEFAULT);
+		// $this->encrypted_password = password_hash($this->raw_password, PASSWORD_DEFAULT);
+		$this->encrypted_password = crypt($this->raw_password, $salt);
 
 		$this->raw_conf_pass = filter_var(trim($password), FILTER_UNSAFE_RAW);
 		$this->encrypted_conf_pass = password_hash($this->raw_password, PASSWORD_DEFAULT);
@@ -51,6 +54,8 @@ class RegisterUser{
 		}
 	}
 
+	
+
 
 	private function checkFieldValues(){
 		if(empty($this->login) || empty($this->raw_password) || empty ($this->raw_conf_pass) || empty($this->email) || empty($this->name))
@@ -62,11 +67,38 @@ class RegisterUser{
 		}
 	}
 
+	private function min_login(){
+		if (strlen($this->login) < 6){
+			$this->error = "Логин слишком мал";
+			return true;
+		}
+		return false;
+	} 
+
+	private function equality_pass(){
+		if ($this->$raw_password != $this->$raw_conf_pass ){
+			$this->error = "Пароли не совпадают";
+			return true;
+		}
+		return false;
+	} 
+
 
 	private function usernameExists(){
 		foreach($this->stored_users as $user){
-			if($this->login == $user["login"]){
+			if($this->login == $user['login']){
 				$this->error = "Этот логин уже занят, пожалуйста, выберите другой";
+				return true;
+			}
+		}
+		return false;
+	}
+
+
+	private function emailExists(){
+		foreach($this->stored_users as $user){
+			if($this->email == $user['email']){
+				$this->error = "Данная почта уже занята, пожалуйста, выберите другую";
 				return true;
 			}
 		}
@@ -77,7 +109,7 @@ class RegisterUser{
 
 
 	private function insertUser(){
-		if($this->usernameExists() == FALSE || $this->login_length() == FALSE ){
+		if($this->usernameExists() == FALSE && $this->equality_pass() == FALSE && $this->emailExists() == FALSE){
 			array_push($this->stored_users, $this->new_user);
 			if(file_put_contents($this->storage, json_encode($this->stored_users, JSON_PRETTY_PRINT))){
 				return $this->success = "Регистрация прошла успешно";
